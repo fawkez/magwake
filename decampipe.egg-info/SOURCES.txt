@@ -1,0 +1,8 @@
+setup.py
+decam_lib/__init__.py
+decam_lib/decam_processing.py
+decampipe.egg-info/PKG-INFO
+decampipe.egg-info/SOURCES.txt
+decampipe.egg-info/dependency_links.txt
+decampipe.egg-info/not-zip-safe
+decampipe.egg-info/top_level.txt

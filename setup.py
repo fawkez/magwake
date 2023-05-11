@@ -1,0 +1,26 @@
+from setuptools import find_packages, setup
+setup(name='decamagwake',
+version='0.1',
+description='Testing installation of Package',
+url='#',
+author='Manuel Cavieres',
+author_email='mncavieres@uc.cl',
+license='MIT',
+packages=find_packages(include=['decam_lib']),
+install_requires=[],
+setup_requires=['pandas', 'astropy', 'pytest-runner'],
+tests_require=['pytest==4.4.1'],
+test_suite='tests',
+classifiers=[
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent"
+],
+include_package_data=True,
+zip_safe=False)
