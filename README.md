@@ -44,6 +44,56 @@ pipeline_test.delete_temp()
 
 This library is released under the MIT license. See LICENSE for more information.
 
+In addition to the pip install method, you can also install Decamagwake by cloning the repository from GitHub. Here are the steps to follow:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/fawkez/magwake.git
+   ```
+
+2. Change the current working directory to the cloned folder:
+
+   ```
+   cd magwake
+   ```
+
+3. Install the library using the setup.py file:
+
+   ```
+   python setup.py install
+   ```
+
+   This will install the library and its dependencies.
+
+Alternatively, you can install the library from the distribution wheel file using pip:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/fawkez/magwake.git
+   ```
+
+2. Change the current working directory to the cloned folder:
+
+   ```
+   cd magwake
+   ```
+
+3. Build the distribution wheel file:
+
+   ```
+   python setup.py sdist bdist_wheel
+   ```
+
+4. Install the distribution wheel file using pip:
+
+   ```
+   pip install dist/decampipe-0.1-py3-none-any.whl
+   ```
+
+This will install the library and its dependencies.
+
 ## Contributing
 
 Contributions to this library are welcome. Please see CONTRIBUTING.md for more information.
